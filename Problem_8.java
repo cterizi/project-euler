@@ -32,11 +32,7 @@ class Problem_8{
       char[] c = first.toCharArray();
       long multiple13 = 1l;
       for(int j=0; j<c.length; j++){
-        //System.out.print(c[j]);
-        //System.out.println("---");
         multiple13 = multiple13 * Character.getNumericValue(c[j]);
-        //System.out.println(Character.getNumericValue(c[j]) + 1);
-        //System.out.println("---");
       }
       if(multiple13>maxMul){
         maxMul=multiple13;
@@ -44,5 +40,4 @@ class Problem_8{
     }
     System.out.println("MaxMul = " + maxMul);
   }
-  
 }
