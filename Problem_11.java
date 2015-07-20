@@ -36,7 +36,6 @@ class Problem_11{
       }
     }
     maxMul[0]=down;
-    System.out.println("MaxDown = " + down);
     
     long maxMultipleUp;
     long up =0l ;  
@@ -50,7 +49,6 @@ class Problem_11{
       }
     }
     maxMul[1]=up;
-    System.out.println("MaxUp = " + up);
     
     long maxMultipleRight;
     long right =0l ;
@@ -64,7 +62,6 @@ class Problem_11{
       }
     }
     maxMul[2]=right;
-    System.out.println("MaxRight = " + right);
     
     long maxMultipleLeft;
     long left =0l ;
@@ -78,7 +75,6 @@ class Problem_11{
       }
     }
     maxMul[3]=left;
-    System.out.println("MaxLeft = " + left);
     
     long maxMultipleDiagonallyUpLeft;
     long diagonallyUpLeft =0l ;
@@ -92,7 +88,6 @@ class Problem_11{
       }
     }
     maxMul[4]=diagonallyUpLeft;
-    System.out.println("MaxMultipleDiagonallyUpLeft = " + diagonallyUpLeft);
     
     long maxMultipleDiagonallyUpRight;
     long diagonallyUpRight =0l ;
@@ -106,7 +101,6 @@ class Problem_11{
       }
     }
     maxMul[5]=diagonallyUpRight;
-    System.out.println("MaxMultipleDiagonallyUpRight = " + diagonallyUpRight);
     
     long maxMultipleDiagonallyDownLeft;
     long diagonallyDownLeft =0l ;
@@ -120,7 +114,6 @@ class Problem_11{
       }
     }
     maxMul[6]=diagonallyDownLeft;
-    System.out.println("MaxMultipleDiagonallyDownLeft = " + diagonallyDownLeft);
     
     long maxMultipleDiagonallyDownRight;
     long diagonallyDownRight =0l ;
@@ -134,7 +127,6 @@ class Problem_11{
       }
     }
     maxMul[7]=diagonallyDownRight;
-    System.out.println("MaxMultipleDiagonallyDownRight = " + diagonallyDownRight);
     
     //Find the maxMul
     long maxMulValue = maxMul[0];
@@ -143,6 +135,6 @@ class Problem_11{
         maxMulValue=maxMul[i];
       }
     }
-    System.out.println("The maximun multiple for this grid is " + maxMulValue);
+    System.out.println("The maximum multiple for this grid is " + maxMulValue);
   }
 }
