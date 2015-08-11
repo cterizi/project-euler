@@ -11,7 +11,7 @@ class Problem_25{
   }
   
   public static void findLenght (String word, BigInteger k, BigInteger l, BigInteger number){
-    if(word.length() >= 648){
+    if(word.length() >= 1000){
       System.out.println(count);
       return;
     }
