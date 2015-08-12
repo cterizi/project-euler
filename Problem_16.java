@@ -9,7 +9,7 @@ class Problem_16{
     p = base.pow(power);
     String word = p.toString();
     for(char character : word.toCharArray()){
-    sum = sum + Character.getNumericValue(character);;
+    sum = sum + Character.getNumericValue(character);
     }
     System.out.println("RESULT: " + sum);
   }
